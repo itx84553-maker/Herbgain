@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HERBGAIN - Qudrat Ka Tohfa | Organic Homeopathic Weight Gain Supplement</title>
+<meta name="description" content="HERBGAIN - 100% Organic & Homeopathic Weight Gain Supplement. No Steroids, No Chemicals. 30 Din Me Natural Results. COD All Pakistan.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          forest: '#166534',
+          forestDark: '#0f4427',
+          cream: '#FEFCE8',
+          gold: '#D97706',
+          goldLight: '#F0B45A'
+        },
+        fontFamily: {
+          body: ['Poppins', 'sans-serif'],
+          head: ['"Playfair Display"', 'serif']
+        }
+      }
+    }
+  }
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Poppins', sans-serif; background: #FEFCE8; color: #1f2937; overflow-x: hidden; }
+  h1,h2,h3,.font-head { font-family: 'Playfair Display', serif; }
+
+  .leaf-bg {
+    background-image:
+      radial-gradient(circle at 10% 20%, rgba(22,101,52,0.05) 0%, transparent 25%),
+      radial-gradient(circle at 90% 80%, rgba(22,101,52,0.05) 0%, transparent 25%);
+  }
+
+  .reveal { opacity: 0; transform: translateY(40px); transition: all 0.9s cubic-bezier(.16,1,.3,1); }
+  .reveal.show { opacity: 1; transform: translateY(0); }
+
+  .btn-glow { transition: all .35s ease; box-shadow: 0 8px 24px rgba(22,101,52,0.25); }
+  .btn-glow:hover { transform: translateY(-3px); box-shadow: 0 0 28px rgba(22,101,52,0.55), 0 12px 30px rgba(22,101,52,0.4); }
+
+  .btn-gold { transition: all .35s ease; box-shadow: 0 8px 24px rgba(217,119,6,0.3); }
+  .btn-gold:hover { transform: translateY(-3px); box-shadow: 0 0 28px rgba(217,119,6,0.6); }
+
+  .leaf {
+    position: fixed; top: -60px; z-index: 1; pointer-events: none; opacity: .25;
+    animation: fall linear infinite;
+  }
+  @keyframes fall {
+    0% { transform: translateY(-10vh) rotate(0deg); opacity: 0; }
+    10% { opacity: .3; }
+    90% { opacity: .3; }
+    100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
+  }
+
+  .pulse-ring { animation: pulse 2s infinite; }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.6); }
+    70% { box-shadow: 0 0 0 18px rgba(37,211,102,0); }
+    100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+  }
+
+  .float-anim { animation: floaty 5s ease-in-out infinite; }
+  @keyframes floaty { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-16px)} }
+
+  .glow-ring { box-shadow: 0 0 80px 30px rgba(22,101,52,0.35); }
+
+  .faq-body { max-height: 0; overflow: hidden; transition: max-height .45s ease, padding .45s ease; }
+  .faq-item.active .faq-body { max-height: 300px; }
+  .faq-item.active .faq-icon { transform: rotate(45deg); }
+  .faq-icon { transition: transform .35s ease; }
+
+  .grad-text { background: linear-gradient(90deg,#D97706,#166534); -webkit-background-clip: text; background-clip: text; color: transparent; }
+</style>
+</head>
+<body class="leaf-bg">
+
+<!-- Floating Leaves -->
+<div class="leaf" style="left:8%; animation-duration:14s; font-size:28px;">🍃</div>
+<div class="leaf" style="left:25%; animation-duration:18s; animation-delay:3s; font-size:22px;">🌿</div>
+<div class="leaf" style="left:55%; animation-duration:16s; animation-delay:6s; font-size:30px;">🍃</div>
+<div class="leaf" style="left:78%; animation-duration:20s; animation-delay:2s; font-size:24px;">🌿</div>
+<div class="leaf" style="left:92%; animation-duration:15s; animation-delay:8s; font-size:20px;">🍃</div>
+
+<!-- ===== TOP ANNOUNCEMENT BAR ===== -->
+<div class="bg-forest text-cream text-center text-xs sm:text-sm py-2 px-3 font-medium tracking-wide">
+  🚚 Free Cash on Delivery All Pakistan &nbsp;|&nbsp; 🌿 100% Organic & Homeopathic
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="sticky top-0 z-40 bg-cream/90 backdrop-blur-md border-b border-forest/10">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <span class="text-2xl">🌿</span>
+      <span class="font-head font-extrabold text-xl sm:text-2xl text-forest tracking-tight">HERB<span class="text-gold">GAIN</span></span>
+    </div>
+    <a href="#order" class="btn-glow bg-forest text-cream px-4 py-2 rounded-full text-sm font-semibold">Order Now</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-b from-cream via-cream to-emerald-50"></div>
+  <div class="relative max-w-6xl mx-auto px-4 pt-10 pb-16 grid md:grid-cols-2 gap-10 items-center">
+    <div class="reveal text-center md:text-left">
+      <span class="inline-block bg-forest/10 text-forest text-xs font-semibold px-4 py-1.5 rounded-full mb-5 tracking-wide">🌱 100% ORGANIC & HOMEOPATHIC</span>
+      <h1 class="font-head font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight text-forestDark">
+        HERBGAIN<br>
+        <span class="grad-text">Qudrat Ka Tohfa,</span><br>
+        Wazan Barhao Mehfooz
+      </h1>
+      <p class="mt-5 text-gray-600 text-base sm:text-lg leading-relaxed">
+        100% Organic & Homeopathic | 30 Din Me Natural Weight Gain |
+        <span class="font-semibold text-forest">6000+ Khush Zindagiyan</span>
+      </p>
+      <div class="mt-7 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+        <a href="#order" class="btn-glow bg-forest text-cream px-7 py-4 rounded-full font-bold text-base">🛒 Order Now - Cash on Delivery</a>
+        <a href="https://wa.me/92XXXXXXXXXX" target="_blank" class="btn-glow bg-white border-2 border-forest text-forest px-7 py-4 rounded-full font-bold text-base">💬 WhatsApp Karein</a>
+      </div>
+      <!-- Trust bar -->
+      <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs sm:text-sm">
+        <div class="bg-white/70 rounded-xl py-3 px-2 shadow-sm text-center font-medium text-forest">🌿 100% Organic</div>
+        <div class="bg-white/70 rounded-xl py-3 px-2 shadow-sm text-center font-medium text-forest">🏥 Homeopathic</div>
+        <div class="bg-white/70 rounded-xl py-3 px-2 shadow-sm text-center font-medium text-gold">⭐ Doctor Recommended</div>
+        <div class="bg-white/70 rounded-xl py-3 px-2 shadow-sm text-center font-medium text-forest">🚚 COD Pakistan</div>
+      </div>
+    </div>
+
+    <!-- Product -->
+    <div class="reveal flex justify-center relative">
+      <div class="absolute w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-emerald-200/40 glow-ring blur-md"></div>
+      <div class="relative float-anim">
+        <img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=600&q=80"
+             alt="HERBGAIN Organic Supplement"
+             class="w-64 sm:w-80 rounded-3xl shadow-2xl object-cover border-4 border-white">
+        <div class="absolute -top-4 -right-2 bg-gold text-white text-xs font-bold px-4 py-3 rounded-full shadow-lg rotate-6">
+          30 DAY<br>RESULTS
+        </div>
+        <div class="absolute -bottom-4 -left-2 bg-forest text-cream text-xs font-bold px-4 py-3 rounded-full shadow-lg -rotate-6">
+          NO<br>STEROIDS
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== PROBLEM SECTION ===== -->
+<section class="py-16 px-4 bg-white">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">Steroids Se Dar Gaye?</h2>
+    <p class="reveal mt-2 text-gold font-semibold text-lg sm:text-xl">Ab Qudrat Ka Rasta Apnao</p>
+    <p class="reveal mt-4 max-w-2xl mx-auto text-gray-500">Hum samajhte hain ke aap kis pareshani se guzar rahe hain. Yeh masail har underweight insan ko pareshan karte hain.</p>
+
+    <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="reveal bg-cream rounded-2xl p-6 shadow-sm border border-red-100">
+        <div class="text-3xl mb-3">⚠️</div>
+        <h3 class="font-semibold text-forestDark text-lg">Steroids Ke Side Effects</h3>
+        <p class="text-sm text-gray-500 mt-2">Liver, dil aur jild ko nuqsan. Khatarnaak nateeje.</p>
+      </div>
+      <div class="reveal bg-cream rounded-2xl p-6 shadow-sm border border-red-100">
+        <div class="text-3xl mb-3">🚫</div>
+        <h3 class="font-semibold text-forestDark text-lg">Fake Dawaiyan</h3>
+        <p class="text-sm text-gray-500 mt-2">Market mein milti naqli aur ghatiya products.</p>
+      </div>
+      <div class="reveal bg-cream rounded-2xl p-6 shadow-sm border border-red-100">
+        <div class="text-3xl mb-3">📉</div>
+        <h3 class="font-semibold text-forestDark text-lg">Wazan Nahi Barhta</h3>
+        <p class="text-sm text-gray-500 mt-2">Khana khaane ke bawajood dubla pann barqarar.</p>
+      </div>
+      <div class="reveal bg-cream rounded-2xl p-6 shadow-sm border border-red-100">
+        <div class="text-3xl mb-3">😔</div>
+        <h3 class="font-semibold text-forestDark text-lg">Confidence Zero</h3>
+        <p class="text-sm text-gray-500 mt-2">Logon ke samne sharmindagi aur kam himmat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BENEFITS GRID ===== -->
+<section class="py-16 px-4 leaf-bg">
+  <div class="max-w-6xl mx-auto text-center">
+    <span class="reveal inline-block bg-gold/10 text-gold text-xs font-semibold px-4 py-1.5 rounded-full mb-4">FAYDE</span>
+    <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">HERBGAIN Ke Qudrati Faiday</h2>
+    <p class="reveal mt-3 text-gray-500 max-w-2xl mx-auto">Har bottle mein chupa hai sehat aur taqat ka qudrati raaz.</p>
+
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">🌾</div>
+        <h3 class="font-bold text-forestDark text-lg">Natural Weight Gain</h3>
+        <p class="text-sm text-gray-500 mt-2">Qudrati jaributiyon se mehfooz aur barqarar wazan.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">💪</div>
+        <h3 class="font-bold text-forestDark text-lg">Muscle Without Chemicals</h3>
+        <p class="text-sm text-gray-500 mt-2">Bina kisi chemical ke taqatwar muscles banayein.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">🍽️</div>
+        <h3 class="font-bold text-forestDark text-lg">Boost Appetite Naturally</h3>
+        <p class="text-sm text-gray-500 mt-2">Bhook qudrati tareeqe se barhayein.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">🛡️</div>
+        <h3 class="font-bold text-forestDark text-lg">100% Safe for Stomach</h3>
+        <p class="text-sm text-gray-500 mt-2">Maide ke liye narm aur mukammal mehfooz.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">⚡</div>
+        <h3 class="font-bold text-forestDark text-lg">Energy & Stamina</h3>
+        <p class="text-sm text-gray-500 mt-2">Din bhar ki phurti aur barhi hui stamina.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">🩺</div>
+        <h3 class="font-bold text-forestDark text-lg">Doctor Approved Formula</h3>
+        <p class="text-sm text-gray-500 mt-2">Mahir homeopathic doctors ki tasdeeq shuda.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY DIFFERENT ===== -->
+<section class="py-16 px-4 bg-forest text-cream relative overflow-hidden">
+  <div class="absolute -top-10 -left-10 text-9xl opacity-10">🌿</div>
+  <div class="absolute -bottom-10 -right-10 text-9xl opacity-10">🍃</div>
+  <div class="max-w-6xl mx-auto text-center relative">
+    <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl">HERBGAIN Kyun Mukhtalif Hai?</h2>
+    <p class="reveal mt-3 text-cream/70 max-w-2xl mx-auto">Qudrat aur science ka mukammal sangam — sirf aap ki sehat ke liye.</p>
+
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="reveal bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+        <div class="text-3xl mb-3">✅</div>
+        <h3 class="font-bold text-lg">No Steroids No Harmful Chemicals</h3>
+        <p class="text-sm text-cream/70 mt-2">Mukammal mehfooz, koi nuqsan nahi.</p>
+      </div>
+      <div class="reveal bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+        <div class="text-3xl mb-3">🔬</div>
+        <h3 class="font-bold text-lg">Homeopathic Science Based</h3>
+        <p class="text-sm text-cream/70 mt-2">Tasdeeq shuda homeopathic formula.</p>
+      </div>
+      <div class="reveal bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+        <div class="text-3xl mb-3">🌱</div>
+        <h3 class="font-bold text-lg">Made from Natural Herbs</h3>
+        <p class="text-sm text-cream/70 mt-2">Khalis qudrati jaributiyon se tayar.</p>
+      </div>
+      <div class="reveal bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+        <div class="text-3xl mb-3">👫</div>
+        <h3 class="font-bold text-lg">Safe for Men & Women Both</h3>
+        <p class="text-sm text-cream/70 mt-2">Mardon aur khawateen dono ke liye.</p>
+      </div>
+    </div>
+
+    <!-- Seals -->
+    <div class="reveal mt-12 flex flex-wrap justify-center gap-4">
+      <div class="bg-cream text-forest rounded-full px-6 py-3 font-bold text-sm flex items-center gap-2 shadow-lg">🏅 Certified Organic</div>
+      <div class="bg-gold text-white rounded-full px-6 py-3 font-bold text-sm flex items-center gap-2 shadow-lg">🩺 Homeopathic Remedy Seal</div>
+      <div class="bg-cream text-forest rounded-full px-6 py-3 font-bold text-sm flex items-center gap-2 shadow-lg">⭐ Doctor Recommended</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="py-16 px-4 bg-cream">
+  <div class="max-w-6xl mx-auto text-center">
+    <span class="reveal inline-block bg-forest/10 text-forest text-xs font-semibold px-4 py-1.5 rounded-full mb-4">TAREEQA-E-ISTEMAL</span>
+    <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">Sirf 3 Aasaan Steps</h2>
+
+    <div class="mt-12 grid md:grid-cols-3 gap-8">
+      <div class="reveal bg-white rounded-3xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=600&q=80" class="h-44 w-full object-cover" alt="Daily dose">
+        <div class="p-6">
+          <div class="w-10 h-10 mx-auto -mt-12 relative bg-forest text-cream rounded-full flex items-center justify-center font-bold shadow-lg">1</div>
+          <h3 class="font-bold text-forestDark text-lg mt-4">Take Daily as Directed</h3>
+          <p class="text-sm text-gray-500 mt-2">Rozana batae gaye tareeqe ke mutabiq HERBGAIN lein.</p>
+        </div>
+      </div>
+      <div class="reveal bg-white rounded-3xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=600&q=80" class="h-44 w-full object-cover" alt="Healthy diet">
+        <div class="p-6">
+          <div class="w-10 h-10 mx-auto -mt-12 relative bg-forest text-cream rounded-full flex items-center justify-center font-bold shadow-lg">2</div>
+          <h3 class="font-bold text-forestDark text-lg mt-4">Eat Normal Healthy Diet</h3>
+          <p class="text-sm text-gray-500 mt-2">Aam sehatmand khana jari rakhein, koi sakhti nahi.</p>
+        </div>
+      </div>
+      <div class="reveal bg-white rounded-3xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=600&q=80" class="h-44 w-full object-cover" alt="Results">
+        <div class="p-6">
+          <div class="w-10 h-10 mx-auto -mt-12 relative bg-gold text-white rounded-full flex items-center justify-center font-bold shadow-lg">3</div>
+          <h3 class="font-bold text-forestDark text-lg mt-4">Natural Results in 30 Days</h3>
+          <p class="text-sm text-gray-500 mt-2">30 din mein qudrati aur nazar aane wale nateeje.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="py-16 px-4 bg-white leaf-bg">
+  <div class="max-w-3xl mx-auto">
+    <div class="text-center mb-10">
+      <span class="reveal inline-block bg-forest/10 text-forest text-xs font-semibold px-4 py-1.5 rounded-full mb-4">SAWALAT</span>
+      <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">Aksar Pooche Jane Wale Sawal</h2>
+    </div>
+
+    <div class="space-y-4" id="faq">
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Kya yeh waqai organic hai?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Ji haan, HERBGAIN 100% organic aur khalis qudrati jaributiyon se tayar kiya gaya hai. Koi chemical ya artificial cheez shamil nahi.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Koi side effects to nahi?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">HERBGAIN homeopathic aur organic hone ki wajah se mukammal mehfooz hai. Behtar nateeje ke liye batae gaye tareeqe par istemal karein.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Homeopathic safe hai?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Bilkul. Homeopathic remedies narm aur long term istemal ke liye mehfooz mani jati hain. Mahir doctors ne is formula ki tasdeeq ki hai.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Delivery kitne din mein hoti hai?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Aam tor par 2 se 4 working days mein aap ke pate par delivery ho jati hai — poore Pakistan mein.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>COD (Cash on Delivery) hai?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Ji haan! Aap product haath mein milne par cash adaa karte hain. Advance payment ki koi zaroorat nahi.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Results kab tak nazar aayenge?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Zyada tar logon ko 30 din ke andar qudrati nateeje nazar aane lagte hain. Behtareen result ke liye mukammal course mukammal karein.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="py-16 px-4 bg-gradient-to-br from-forest to-forestDark text-cream relative overflow-hidden">
+  <div class="absolute top-0 left-0 text-8xl opacity-10">🍃</div>
+  <div class="absolute bottom-0 right-0 text-8xl opacity-10">🌿</div>
+  <div class="max-w-3xl mx-auto text-center relative">
+    <div class="reveal inline-block bg-red-500 text-white text-sm font-bold px-5 py-2 rounded-full mb-5 animate-pulse">🔥 Limited Stock - Sirf 150 Bottles Left</div>
+    <h2 class="reveal font-head font-extrabold text-3xl sm:text-4xl">Aaj Hi Apni Sehat Ka Faisla Karein</h2>
+    <p class="reveal mt-4 text-cream/80">Qudrat ke sath wazan barhayein — mehfooz, mukammal aur bharose ke sath.</p>
+
+    <div class="reveal mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+      <a href="#order" class="btn-gold bg-gold text-white px-8 py-4 rounded-full font-bold text-lg">🛒 Order Now COD</a>
+      <a href="https://wa.me/92XXXXXXXXXX" target="_blank" class="btn-glow bg-[#25D366] text-white px-8 py-4 rounded-full font-bold text-lg">💬 WhatsApp Order</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ORDER FORM ===== -->
+<section id="order" class="py-16 px-4 bg-cream">
+  <div class="max-w-lg mx-auto">
+    <div class="text-center mb-8">
+      <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">Order Form</h2>
+      <p class="reveal mt-2 text-gray-500">Form bharein — hamari team aap se rabta karegi. <span class="font-semibold text-forest">Cash on Delivery Only.</span></p>
+    </div>
+
+    <form class="reveal bg-white rounded-3xl shadow-xl p-7 border border-forest/5 space-y-4" onsubmit="return submitOrder(event)">
+      <div>
+        <label class="text-sm font-semibold text-forestDark">Poora Naam</label>
+        <input id="f_name" type="text" required placeholder="Apna naam likhein"
+          class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 focus:border-forest focus:ring-2 focus:ring-forest/20 outline-none">
+      </div>
+      <div>
+        <label class="text-sm font-semibold text-forestDark">Phone Number</label>
+        <input id="f_phone" type="tel" required placeholder="03XX-XXXXXXX"
+          class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 focus:border-forest focus:ring-2 focus:ring-forest/20 outline-none">
+      </div>
+      <div>
+        <label class="text-sm font-semibold text-forestDark">Mukammal Pata</label>
+        <textarea id="f_address" required rows="2" placeholder="Ghar ka pata, ilaqa"
+          class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 focus:border-forest focus:ring-2 focus:ring-forest/20 outline-none"></textarea>
+      </div>
+      <div>
+        <label class="text-sm font-semibold text-forestDark">Sheher (City)</label>
+        <input id="f_city" type="text" required placeholder="Aap ka sheher"
+          class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 focus:border-forest focus:ring-2 focus:ring-forest/20 outline-none">
+      </div>
+
+      <div class="bg-cream rounded-xl p-3 text-center text-sm font-semibold text-forest">💵 Payment Method: Cash on Delivery (COD)</div>
+
+      <button type="submit" class="btn-glow w-full bg-forest text-cream py-4 rounded-full font-bold text-lg">✅ Confirm Order (COD)</button>
+      <a href="https://wa.me/92XXXXXXXXXX" target="_blank" class="btn-glow block text-center w-full bg-[#25D366] text-white py-4 rounded-full font-bold text-lg">💬 WhatsApp Order</a>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-forestDark text-cream/80 pt-12 pb-28 px-4">
+  <div class="max-w-6xl mx-auto grid sm:grid-cols-3 gap-8">
+    <div>
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-2xl">🌿</span>
+        <span class="font-head font-extrabold text-2xl text-cream">HERB<span class="text-gold">GAIN</span></span>
+      </div>
+      <p class="text-sm text-cream/60">Qudrat ka tohfa — mehfooz aur qudrati weight gain ke liye organic homeopathic supplement.</p>
+    </div>
+    <div>
+      <h4 class="font-bold text-cream mb-3">Rabta Karein</h4>
+      <ul class="space-y-2 text-sm">
+        <li>📞 <a href="tel:+92XXXXXXXXXX" class="hover:text-gold">+92 XXX XXXXXXX</a></li>
+        <li>💬 <a href="https://wa.me/92XXXXXXXXXX" target="_blank" class="hover:text-gold">WhatsApp Support</a></li>
+        <li>📧 <a href="mailto:info@herbgain.pk" class="hover:text-gold">info@herbgain.pk</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold text-cream mb-3">Maloomat</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#" class="hover:text-gold">Privacy Policy</a></li>
+        <li><a href="#order" class="hover:text-gold">Order Now</a></li>
+        <li><a href="#faq" class="hover:text-gold">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto mt-10 pt-6 border-t border-cream/10 text-xs text-cream/50 leading-relaxed">
+    <p><strong>Disclaimer:</strong> Homeopathic supplement. Results may vary. Consult homeopathic doctor if needed.</p>
+    <p class="mt-3">© 2024 HERBGAIN. All Rights Reserved. Made with 🌿 in Pakistan.</p>
+  </div>
+</footer>
+
+<!-- ===== FLOATING WHATSAPP ===== -->
+<a href="https://wa.me/92XXXXXXXXXX" target="_blank"
+   class="pulse-ring fixed bottom-5 right-5 z-50 bg-[#25D366] w-14 h-14 rounded-full flex items-center justify-center shadow-lg text-white text-3xl">
+  <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.965-.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<!-- ===== SCRIPTS (inline only) ===== -->
+<script>
+  const obs = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); obs.unobserve(e.target);} });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+  document.querySelectorAll('.faq-q').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const item = btn.parentElement;
+      const wasActive = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('active'));
+      if(!wasActive) item.classList.add('active');
+    });
+  });
+
+  function submitOrder(e){
+    e.preventDefault();
+    const name = document.getElementById('f_name').value;
+    const phone = document.getElementById('f_phone').value;
+    const address = document.getElementById('f_address').value;
+    const city = document.getElementById('f_city').value;
+    const msg = `Assalam o Alaikum! Main HERBGAIN order karna chahta/chahti hoon (COD):%0A%0A👤 Naam: ${name}%0A📞 Phone: ${phone}%0A🏠 Pata: ${address}%0A🏙️ Sheher: ${city}`;
+    window.open(`https://wa.me/92XXXXXXXXXX?text=${msg}`,'_blank');
+    return false;
+  }
+</script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HERBGAIN - Qudrat Ka Tohfa | Organic Homeopathic Weight Gain Supplement</title>
+<meta name="description" content="HERBGAIN - 100% Organic & Homeopathic Weight Gain Supplement. No Steroids, No Chemicals. 30 Din Me Natural Results. COD All Pakistan.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          forest: '#166534',
+          forestDark: '#0f4427',
+          cream: '#FEFCE8',
+          gold: '#D97706',
+          goldLight: '#F0B45A'
+        },
+        fontFamily: {
+          body: ['Poppins', 'sans-serif'],
+          head: ['"Playfair Display"', 'serif']
+        }
+      }
+    }
+  }
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Poppins', sans-serif; background: #FEFCE8; color: #1f2937; overflow-x: hidden; }
+  h1,h2,h3,.font-head { font-family: 'Playfair Display', serif; }
+
+  .leaf-bg {
+    background-image:
+      radial-gradient(circle at 10% 20%, rgba(22,101,52,0.05) 0%, transparent 25%),
+      radial-gradient(circle at 90% 80%, rgba(22,101,52,0.05) 0%, transparent 25%);
+  }
+
+  .reveal { opacity: 0; transform: translateY(40px); transition: all 0.9s cubic-bezier(.16,1,.3,1); }
+  .reveal.show { opacity: 1; transform: translateY(0); }
+
+  .btn-glow { transition: all .35s ease; box-shadow: 0 8px 24px rgba(22,101,52,0.25); }
+  .btn-glow:hover { transform: translateY(-3px); box-shadow: 0 0 28px rgba(22,101,52,0.55), 0 12px 30px rgba(22,101,52,0.4); }
+
+  .btn-gold { transition: all .35s ease; box-shadow: 0 8px 24px rgba(217,119,6,0.3); }
+  .btn-gold:hover { transform: translateY(-3px); box-shadow: 0 0 28px rgba(217,119,6,0.6); }
+
+  .leaf {
+    position: fixed; top: -60px; z-index: 1; pointer-events: none; opacity: .25;
+    animation: fall linear infinite;
+  }
+  @keyframes fall {
+    0% { transform: translateY(-10vh) rotate(0deg); opacity: 0; }
+    10% { opacity: .3; }
+    90% { opacity: .3; }
+    100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
+  }
+
+  .pulse-ring { animation: pulse 2s infinite; }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.6); }
+    70% { box-shadow: 0 0 0 18px rgba(37,211,102,0); }
+    100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+  }
+
+  .float-anim { animation: floaty 5s ease-in-out infinite; }
+  @keyframes floaty { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-16px)} }
+
+  .glow-ring { box-shadow: 0 0 80px 30px rgba(22,101,52,0.35); }
+
+  .faq-body { max-height: 0; overflow: hidden; transition: max-height .45s ease, padding .45s ease; }
+  .faq-item.active .faq-body { max-height: 300px; }
+  .faq-item.active .faq-icon { transform: rotate(45deg); }
+  .faq-icon { transition: transform .35s ease; }
+
+  .grad-text { background: linear-gradient(90deg,#D97706,#166534); -webkit-background-clip: text; background-clip: text; color: transparent; }
+</style>
+</head>
+<body class="leaf-bg">
+
+<!-- Floating Leaves -->
+<div class="leaf" style="left:8%; animation-duration:14s; font-size:28px;">🍃</div>
+<div class="leaf" style="left:25%; animation-duration:18s; animation-delay:3s; font-size:22px;">🌿</div>
+<div class="leaf" style="left:55%; animation-duration:16s; animation-delay:6s; font-size:30px;">🍃</div>
+<div class="leaf" style="left:78%; animation-duration:20s; animation-delay:2s; font-size:24px;">🌿</div>
+<div class="leaf" style="left:92%; animation-duration:15s; animation-delay:8s; font-size:20px;">🍃</div>
+
+<!-- ===== TOP ANNOUNCEMENT BAR ===== -->
+<div class="bg-forest text-cream text-center text-xs sm:text-sm py-2 px-3 font-medium tracking-wide">
+  🚚 Free Cash on Delivery All Pakistan &nbsp;|&nbsp; 🌿 100% Organic & Homeopathic
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="sticky top-0 z-40 bg-cream/90 backdrop-blur-md border-b border-forest/10">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <span class="text-2xl">🌿</span>
+      <span class="font-head font-extrabold text-xl sm:text-2xl text-forest tracking-tight">HERB<span class="text-gold">GAIN</span></span>
+    </div>
+    <a href="#order" class="btn-glow bg-forest text-cream px-4 py-2 rounded-full text-sm font-semibold">Order Now</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-b from-cream via-cream to-emerald-50"></div>
+  <div class="relative max-w-6xl mx-auto px-4 pt-10 pb-16 grid md:grid-cols-2 gap-10 items-center">
+    <div class="reveal text-center md:text-left">
+      <span class="inline-block bg-forest/10 text-forest text-xs font-semibold px-4 py-1.5 rounded-full mb-5 tracking-wide">🌱 100% ORGANIC & HOMEOPATHIC</span>
+      <h1 class="font-head font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight text-forestDark">
+        HERBGAIN<br>
+        <span class="grad-text">Qudrat Ka Tohfa,</span><br>
+        Wazan Barhao Mehfooz
+      </h1>
+      <p class="mt-5 text-gray-600 text-base sm:text-lg leading-relaxed">
+        100% Organic & Homeopathic | 30 Din Me Natural Weight Gain |
+        <span class="font-semibold text-forest">6000+ Khush Zindagiyan</span>
+      </p>
+      <div class="mt-7 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+        <a href="#order" class="btn-glow bg-forest text-cream px-7 py-4 rounded-full font-bold text-base">🛒 Order Now - Cash on Delivery</a>
+        <a href="https://wa.me/92XXXXXXXXXX" target="_blank" class="btn-glow bg-white border-2 border-forest text-forest px-7 py-4 rounded-full font-bold text-base">💬 WhatsApp Karein</a>
+      </div>
+      <!-- Trust bar -->
+      <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs sm:text-sm">
+        <div class="bg-white/70 rounded-xl py-3 px-2 shadow-sm text-center font-medium text-forest">🌿 100% Organic</div>
+        <div class="bg-white/70 rounded-xl py-3 px-2 shadow-sm text-center font-medium text-forest">🏥 Homeopathic</div>
+        <div class="bg-white/70 rounded-xl py-3 px-2 shadow-sm text-center font-medium text-gold">⭐ Doctor Recommended</div>
+        <div class="bg-white/70 rounded-xl py-3 px-2 shadow-sm text-center font-medium text-forest">🚚 COD Pakistan</div>
+      </div>
+    </div>
+
+    <!-- Product -->
+    <div class="reveal flex justify-center relative">
+      <div class="absolute w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-emerald-200/40 glow-ring blur-md"></div>
+      <div class="relative float-anim">
+        <img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=600&q=80"
+             alt="HERBGAIN Organic Supplement"
+             class="w-64 sm:w-80 rounded-3xl shadow-2xl object-cover border-4 border-white">
+        <div class="absolute -top-4 -right-2 bg-gold text-white text-xs font-bold px-4 py-3 rounded-full shadow-lg rotate-6">
+          30 DAY<br>RESULTS
+        </div>
+        <div class="absolute -bottom-4 -left-2 bg-forest text-cream text-xs font-bold px-4 py-3 rounded-full shadow-lg -rotate-6">
+          NO<br>STEROIDS
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== PROBLEM SECTION ===== -->
+<section class="py-16 px-4 bg-white">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">Steroids Se Dar Gaye?</h2>
+    <p class="reveal mt-2 text-gold font-semibold text-lg sm:text-xl">Ab Qudrat Ka Rasta Apnao</p>
+    <p class="reveal mt-4 max-w-2xl mx-auto text-gray-500">Hum samajhte hain ke aap kis pareshani se guzar rahe hain. Yeh masail har underweight insan ko pareshan karte hain.</p>
+
+    <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="reveal bg-cream rounded-2xl p-6 shadow-sm border border-red-100">
+        <div class="text-3xl mb-3">⚠️</div>
+        <h3 class="font-semibold text-forestDark text-lg">Steroids Ke Side Effects</h3>
+        <p class="text-sm text-gray-500 mt-2">Liver, dil aur jild ko nuqsan. Khatarnaak nateeje.</p>
+      </div>
+      <div class="reveal bg-cream rounded-2xl p-6 shadow-sm border border-red-100">
+        <div class="text-3xl mb-3">🚫</div>
+        <h3 class="font-semibold text-forestDark text-lg">Fake Dawaiyan</h3>
+        <p class="text-sm text-gray-500 mt-2">Market mein milti naqli aur ghatiya products.</p>
+      </div>
+      <div class="reveal bg-cream rounded-2xl p-6 shadow-sm border border-red-100">
+        <div class="text-3xl mb-3">📉</div>
+        <h3 class="font-semibold text-forestDark text-lg">Wazan Nahi Barhta</h3>
+        <p class="text-sm text-gray-500 mt-2">Khana khaane ke bawajood dubla pann barqarar.</p>
+      </div>
+      <div class="reveal bg-cream rounded-2xl p-6 shadow-sm border border-red-100">
+        <div class="text-3xl mb-3">😔</div>
+        <h3 class="font-semibold text-forestDark text-lg">Confidence Zero</h3>
+        <p class="text-sm text-gray-500 mt-2">Logon ke samne sharmindagi aur kam himmat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BENEFITS GRID ===== -->
+<section class="py-16 px-4 leaf-bg">
+  <div class="max-w-6xl mx-auto text-center">
+    <span class="reveal inline-block bg-gold/10 text-gold text-xs font-semibold px-4 py-1.5 rounded-full mb-4">FAYDE</span>
+    <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">HERBGAIN Ke Qudrati Faiday</h2>
+    <p class="reveal mt-3 text-gray-500 max-w-2xl mx-auto">Har bottle mein chupa hai sehat aur taqat ka qudrati raaz.</p>
+
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">🌾</div>
+        <h3 class="font-bold text-forestDark text-lg">Natural Weight Gain</h3>
+        <p class="text-sm text-gray-500 mt-2">Qudrati jaributiyon se mehfooz aur barqarar wazan.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">💪</div>
+        <h3 class="font-bold text-forestDark text-lg">Muscle Without Chemicals</h3>
+        <p class="text-sm text-gray-500 mt-2">Bina kisi chemical ke taqatwar muscles banayein.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">🍽️</div>
+        <h3 class="font-bold text-forestDark text-lg">Boost Appetite Naturally</h3>
+        <p class="text-sm text-gray-500 mt-2">Bhook qudrati tareeqe se barhayein.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">🛡️</div>
+        <h3 class="font-bold text-forestDark text-lg">100% Safe for Stomach</h3>
+        <p class="text-sm text-gray-500 mt-2">Maide ke liye narm aur mukammal mehfooz.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">⚡</div>
+        <h3 class="font-bold text-forestDark text-lg">Energy & Stamina</h3>
+        <p class="text-sm text-gray-500 mt-2">Din bhar ki phurti aur barhi hui stamina.</p>
+      </div>
+      <div class="reveal bg-white rounded-3xl p-7 shadow-md hover:shadow-xl transition border border-forest/5 text-left">
+        <div class="w-14 h-14 rounded-2xl bg-forest/10 flex items-center justify-center text-2xl mb-4">🩺</div>
+        <h3 class="font-bold text-forestDark text-lg">Doctor Approved Formula</h3>
+        <p class="text-sm text-gray-500 mt-2">Mahir homeopathic doctors ki tasdeeq shuda.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY DIFFERENT ===== -->
+<section class="py-16 px-4 bg-forest text-cream relative overflow-hidden">
+  <div class="absolute -top-10 -left-10 text-9xl opacity-10">🌿</div>
+  <div class="absolute -bottom-10 -right-10 text-9xl opacity-10">🍃</div>
+  <div class="max-w-6xl mx-auto text-center relative">
+    <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl">HERBGAIN Kyun Mukhtalif Hai?</h2>
+    <p class="reveal mt-3 text-cream/70 max-w-2xl mx-auto">Qudrat aur science ka mukammal sangam — sirf aap ki sehat ke liye.</p>
+
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="reveal bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+        <div class="text-3xl mb-3">✅</div>
+        <h3 class="font-bold text-lg">No Steroids No Harmful Chemicals</h3>
+        <p class="text-sm text-cream/70 mt-2">Mukammal mehfooz, koi nuqsan nahi.</p>
+      </div>
+      <div class="reveal bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+        <div class="text-3xl mb-3">🔬</div>
+        <h3 class="font-bold text-lg">Homeopathic Science Based</h3>
+        <p class="text-sm text-cream/70 mt-2">Tasdeeq shuda homeopathic formula.</p>
+      </div>
+      <div class="reveal bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+        <div class="text-3xl mb-3">🌱</div>
+        <h3 class="font-bold text-lg">Made from Natural Herbs</h3>
+        <p class="text-sm text-cream/70 mt-2">Khalis qudrati jaributiyon se tayar.</p>
+      </div>
+      <div class="reveal bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+        <div class="text-3xl mb-3">👫</div>
+        <h3 class="font-bold text-lg">Safe for Men & Women Both</h3>
+        <p class="text-sm text-cream/70 mt-2">Mardon aur khawateen dono ke liye.</p>
+      </div>
+    </div>
+
+    <!-- Seals -->
+    <div class="reveal mt-12 flex flex-wrap justify-center gap-4">
+      <div class="bg-cream text-forest rounded-full px-6 py-3 font-bold text-sm flex items-center gap-2 shadow-lg">🏅 Certified Organic</div>
+      <div class="bg-gold text-white rounded-full px-6 py-3 font-bold text-sm flex items-center gap-2 shadow-lg">🩺 Homeopathic Remedy Seal</div>
+      <div class="bg-cream text-forest rounded-full px-6 py-3 font-bold text-sm flex items-center gap-2 shadow-lg">⭐ Doctor Recommended</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="py-16 px-4 bg-cream">
+  <div class="max-w-6xl mx-auto text-center">
+    <span class="reveal inline-block bg-forest/10 text-forest text-xs font-semibold px-4 py-1.5 rounded-full mb-4">TAREEQA-E-ISTEMAL</span>
+    <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">Sirf 3 Aasaan Steps</h2>
+
+    <div class="mt-12 grid md:grid-cols-3 gap-8">
+      <div class="reveal bg-white rounded-3xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=600&q=80" class="h-44 w-full object-cover" alt="Daily dose">
+        <div class="p-6">
+          <div class="w-10 h-10 mx-auto -mt-12 relative bg-forest text-cream rounded-full flex items-center justify-center font-bold shadow-lg">1</div>
+          <h3 class="font-bold text-forestDark text-lg mt-4">Take Daily as Directed</h3>
+          <p class="text-sm text-gray-500 mt-2">Rozana batae gaye tareeqe ke mutabiq HERBGAIN lein.</p>
+        </div>
+      </div>
+      <div class="reveal bg-white rounded-3xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=600&q=80" class="h-44 w-full object-cover" alt="Healthy diet">
+        <div class="p-6">
+          <div class="w-10 h-10 mx-auto -mt-12 relative bg-forest text-cream rounded-full flex items-center justify-center font-bold shadow-lg">2</div>
+          <h3 class="font-bold text-forestDark text-lg mt-4">Eat Normal Healthy Diet</h3>
+          <p class="text-sm text-gray-500 mt-2">Aam sehatmand khana jari rakhein, koi sakhti nahi.</p>
+        </div>
+      </div>
+      <div class="reveal bg-white rounded-3xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=600&q=80" class="h-44 w-full object-cover" alt="Results">
+        <div class="p-6">
+          <div class="w-10 h-10 mx-auto -mt-12 relative bg-gold text-white rounded-full flex items-center justify-center font-bold shadow-lg">3</div>
+          <h3 class="font-bold text-forestDark text-lg mt-4">Natural Results in 30 Days</h3>
+          <p class="text-sm text-gray-500 mt-2">30 din mein qudrati aur nazar aane wale nateeje.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="py-16 px-4 bg-white leaf-bg">
+  <div class="max-w-3xl mx-auto">
+    <div class="text-center mb-10">
+      <span class="reveal inline-block bg-forest/10 text-forest text-xs font-semibold px-4 py-1.5 rounded-full mb-4">SAWALAT</span>
+      <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">Aksar Pooche Jane Wale Sawal</h2>
+    </div>
+
+    <div class="space-y-4" id="faq">
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Kya yeh waqai organic hai?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Ji haan, HERBGAIN 100% organic aur khalis qudrati jaributiyon se tayar kiya gaya hai. Koi chemical ya artificial cheez shamil nahi.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Koi side effects to nahi?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">HERBGAIN homeopathic aur organic hone ki wajah se mukammal mehfooz hai. Behtar nateeje ke liye batae gaye tareeqe par istemal karein.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Homeopathic safe hai?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Bilkul. Homeopathic remedies narm aur long term istemal ke liye mehfooz mani jati hain. Mahir doctors ne is formula ki tasdeeq ki hai.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Delivery kitne din mein hoti hai?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Aam tor par 2 se 4 working days mein aap ke pate par delivery ho jati hai — poore Pakistan mein.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>COD (Cash on Delivery) hai?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Ji haan! Aap product haath mein milne par cash adaa karte hain. Advance payment ki koi zaroorat nahi.</p></div>
+      </div>
+      <div class="faq-item reveal bg-cream rounded-2xl shadow-sm overflow-hidden border border-forest/5">
+        <button class="faq-q w-full flex justify-between items-center text-left px-6 py-5 font-semibold text-forestDark">
+          <span>Results kab tak nazar aayenge?</span><span class="faq-icon text-gold text-2xl">+</span>
+        </button>
+        <div class="faq-body px-6 text-gray-500 text-sm"><p class="pb-5">Zyada tar logon ko 30 din ke andar qudrati nateeje nazar aane lagte hain. Behtareen result ke liye mukammal course mukammal karein.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="py-16 px-4 bg-gradient-to-br from-forest to-forestDark text-cream relative overflow-hidden">
+  <div class="absolute top-0 left-0 text-8xl opacity-10">🍃</div>
+  <div class="absolute bottom-0 right-0 text-8xl opacity-10">🌿</div>
+  <div class="max-w-3xl mx-auto text-center relative">
+    <div class="reveal inline-block bg-red-500 text-white text-sm font-bold px-5 py-2 rounded-full mb-5 animate-pulse">🔥 Limited Stock - Sirf 150 Bottles Left</div>
+    <h2 class="reveal font-head font-extrabold text-3xl sm:text-4xl">Aaj Hi Apni Sehat Ka Faisla Karein</h2>
+    <p class="reveal mt-4 text-cream/80">Qudrat ke sath wazan barhayein — mehfooz, mukammal aur bharose ke sath.</p>
+
+    <div class="reveal mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+      <a href="#order" class="btn-gold bg-gold text-white px-8 py-4 rounded-full font-bold text-lg">🛒 Order Now COD</a>
+      <a href="https://wa.me/92XXXXXXXXXX" target="_blank" class="btn-glow bg-[#25D366] text-white px-8 py-4 rounded-full font-bold text-lg">💬 WhatsApp Order</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ORDER FORM ===== -->
+<section id="order" class="py-16 px-4 bg-cream">
+  <div class="max-w-lg mx-auto">
+    <div class="text-center mb-8">
+      <h2 class="reveal font-head font-extrabold text-2xl sm:text-4xl text-forestDark">Order Form</h2>
+      <p class="reveal mt-2 text-gray-500">Form bharein — hamari team aap se rabta karegi. <span class="font-semibold text-forest">Cash on Delivery Only.</span></p>
+    </div>
+
+    <form class="reveal bg-white rounded-3xl shadow-xl p-7 border border-forest/5 space-y-4" onsubmit="return submitOrder(event)">
+      <div>
+        <label class="text-sm font-semibold text-forestDark">Poora Naam</label>
+        <input id="f_name" type="text" required placeholder="Apna naam likhein"
+          class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 focus:border-forest focus:ring-2 focus:ring-forest/20 outline-none">
+      </div>
+      <div>
+        <label class="text-sm font-semibold text-forestDark">Phone Number</label>
+        <input id="f_phone" type="tel" required placeholder="03XX-XXXXXXX"
+          class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 focus:border-forest focus:ring-2 focus:ring-forest/20 outline-none">
+      </div>
+      <div>
+        <label class="text-sm font-semibold text-forestDark">Mukammal Pata</label>
+        <textarea id="f_address" required rows="2" placeholder="Ghar ka pata, ilaqa"
+          class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 focus:border-forest focus:ring-2 focus:ring-forest/20 outline-none"></textarea>
+      </div>
+      <div>
+        <label class="text-sm font-semibold text-forestDark">Sheher (City)</label>
+        <input id="f_city" type="text" required placeholder="Aap ka sheher"
+          class="mt-1 w-full rounded-xl border border-gray-200 px-4 py-3 focus:border-forest focus:ring-2 focus:ring-forest/20 outline-none">
+      </div>
+
+      <div class="bg-cream rounded-xl p-3 text-center text-sm font-semibold text-forest">💵 Payment Method: Cash on Delivery (COD)</div>
+
+      <button type="submit" class="btn-glow w-full bg-forest text-cream py-4 rounded-full font-bold text-lg">✅ Confirm Order (COD)</button>
+      <a href="https://wa.me/92XXXXXXXXXX" target="_blank" class="btn-glow block text-center w-full bg-[#25D366] text-white py-4 rounded-full font-bold text-lg">💬 WhatsApp Order</a>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-forestDark text-cream/80 pt-12 pb-28 px-4">
+  <div class="max-w-6xl mx-auto grid sm:grid-cols-3 gap-8">
+    <div>
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-2xl">🌿</span>
+        <span class="font-head font-extrabold text-2xl text-cream">HERB<span class="text-gold">GAIN</span></span>
+      </div>
+      <p class="text-sm text-cream/60">Qudrat ka tohfa — mehfooz aur qudrati weight gain ke liye organic homeopathic supplement.</p>
+    </div>
+    <div>
+      <h4 class="font-bold text-cream mb-3">Rabta Karein</h4>
+      <ul class="space-y-2 text-sm">
+        <li>📞 <a href="tel:+92XXXXXXXXXX" class="hover:text-gold">+92 XXX XXXXXXX</a></li>
+        <li>💬 <a href="https://wa.me/92XXXXXXXXXX" target="_blank" class="hover:text-gold">WhatsApp Support</a></li>
+        <li>📧 <a href="mailto:info@herbgain.pk" class="hover:text-gold">info@herbgain.pk</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold text-cream mb-3">Maloomat</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#" class="hover:text-gold">Privacy Policy</a></li>
+        <li><a href="#order" class="hover:text-gold">Order Now</a></li>
+        <li><a href="#faq" class="hover:text-gold">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto mt-10 pt-6 border-t border-cream/10 text-xs text-cream/50 leading-relaxed">
+    <p><strong>Disclaimer:</strong> Homeopathic supplement. Results may vary. Consult homeopathic doctor if needed.</p>
+    <p class="mt-3">© 2024 HERBGAIN. All Rights Reserved. Made with 🌿 in Pakistan.</p>
+  </div>
+</footer>
+
+<!-- ===== FLOATING WHATSAPP ===== -->
+<a href="https://wa.me/92XXXXXXXXXX" target="_blank"
+   class="pulse-ring fixed bottom-5 right-5 z-50 bg-[#25D366] w-14 h-14 rounded-full flex items-center justify-center shadow-lg text-white text-3xl">
+  <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.965-.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<!-- ===== SCRIPTS (inline only) ===== -->
+<script>
+  const obs = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); obs.unobserve(e.target);} });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+  document.querySelectorAll('.faq-q').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const item = btn.parentElement;
+      const wasActive = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('active'));
+      if(!wasActive) item.classList.add('active');
+    });
+  });
+
+  function submitOrder(e){
+    e.preventDefault();
+    const name = document.getElementById('f_name').value;
+    const phone = document.getElementById('f_phone').value;
+    const address = document.getElementById('f_address').value;
+    const city = document.getElementById('f_city').value;
+    const msg = `Assalam o Alaikum! Main HERBGAIN order karna chahta/chahti hoon (COD):%0A%0A👤 Naam: ${name}%0A📞 Phone: ${phone}%0A🏠 Pata: ${address}%0A🏙️ Sheher: ${city}`;
+    window.open(`https://wa.me/92XXXXXXXXXX?text=${msg}`,'_blank');
+    return false;
+  }
+</script>
+</body>
+</html>
