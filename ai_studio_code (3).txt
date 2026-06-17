@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main # Agar aapki default branch master hai toh yahan master likh dein
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "products_collection"
+    label: "Products Catalog"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "products"
+        label: "All Products"
+        file: "_data/products.json"
+        fields:
+          - name: "products"
+            label: "Products List"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Price", name: "price", widget: "number", value_type: "int" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Stock", name: "stock", widget: "number", value_type: "int" }
